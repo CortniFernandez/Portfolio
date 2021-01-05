@@ -22,3 +22,18 @@ body {
 /* Nav */
 
 
+/* Window */
+.window-box {
+  margin-left: 10%;
+}
+.window {
+  margin-left: 50px;
+  height: 600px;
+  width: 600px;
+  background-image: url("./images/toronto.jpg");
+  background-size: cover;
+  position: relative;
+  border-radius: 50%;
+  top: -200px;
+}
+
