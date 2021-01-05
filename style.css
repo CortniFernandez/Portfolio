@@ -15,7 +15,7 @@ body {
   width: 400px;
   height: 100vh;
   background-color:rgb(67, 67, 187);
-  position: absolute;
+  position: fixed;
   top: 0px;
 }
 
@@ -37,3 +37,21 @@ body {
   top: -200px;
 }
 
+/* About Me section */
+.about-box {
+  margin-left: 10%;
+}
+.about-me {
+  width: 250px;
+  height: 400px;
+  background-color:rgb(247, 237, 233);
+  box-shadow: 0 5px 5px 0;
+  position: relative;
+  top: -700px;
+  padding: 10px;
+  margin-left: 50px;
+}
+.about-me-border {
+  height: 380px;
+  border: 5px solid white;
+}
