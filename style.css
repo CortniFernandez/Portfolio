@@ -7,6 +7,7 @@ body {
   background-image: linear-gradient(#7c75a1, #5f8abd);
   position: relative;
   top: 150px;
+  z-index: -10;
 }
 .banner-box {
   margin-left: 10%;
@@ -17,6 +18,7 @@ body {
   background-color:rgb(67, 67, 187);
   position: fixed;
   top: 0px;
+  z-index: -10;
 }
 
 /* Nav */
@@ -32,9 +34,10 @@ body {
   width: 600px;
   background-image: url("./images/toronto.jpg");
   background-size: cover;
-  position: relative;
+  position: absolute;
   border-radius: 50%;
-  top: -200px;
+  top: 150px;
+  z-index: -10;
 }
 
 /* About Me section */
@@ -46,12 +49,24 @@ body {
   height: 400px;
   background-color:rgb(247, 237, 233);
   box-shadow: 0 5px 5px 0;
-  position: relative;
-  top: -700px;
+  position: absolute;
   padding: 10px;
   margin-left: 50px;
 }
 .about-me-border {
   height: 380px;
   border: 5px solid white;
+}
+
+/* Portfolio section */
+.port-box {
+  margin-top: 380px;
+  max-width: 1440px;
+  position: relative;
+  z-index: -9;
+}
+.port-mat-box {
+  height: 400px;
+  background-color:rgb(247, 237, 233);
+  box-shadow: 0 5px 5px 0;
 }
