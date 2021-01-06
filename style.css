@@ -1,12 +1,13 @@
 /* Background Elements */
 body {
-  background-color: #fef2f4;
   font-family: Georgia, serif;
+  background-image: linear-gradient(to right top, #d6afc5, #d2a8c9, #caa3d0, #bd9fd7, #ac9cdf, #9fa0e5, #90a5ea, #7fa9ee, #7bb4ef, #7dbdee, #85c6ec, #90cee9);
 }
 .h-stripe {
-  height: 400px;
+  height: 380px;
   width: 100%;
-  background-image: linear-gradient(#7c75a1, #5f8abd);
+  background-color: white;
+  opacity: 0.3;
   position: absolute;
   top: 270px;
   z-index: -10;
@@ -25,7 +26,11 @@ body {
 
 /* Nav */
 .navbar {
-  background-color: #003466;
+  background-color: white;
+  opacity: 0.9;
+}
+.nav-link {
+  color: #003466;
 }
 
 /* Window */
@@ -53,15 +58,16 @@ body {
 .about-me {
   width: 350px;
   height: 500px;
-  background-color: #ffe7c9;
-  box-shadow: 0 5px 5px 0;
+  background-color: hsla(209, 50%, 40%, 0.8);
+  border-radius: 10px;
+  box-shadow: 5px 5px 8px #001930;
   position: absolute;
   padding: 10px;
   margin-left: 50px;
 }
 .about-me-border {
   height: 100%;
-  border: 10px solid white;
+  border-left: 3px solid white;
 }
 .socials-box {
   position: absolute;
@@ -93,7 +99,7 @@ body {
   margin-left: -60px;
   background-image: url("./images/icon-me.png");
   background-size: cover;
-  border: 7px solid white;
+  border: 3px solid white;
   border-radius: 50%;
 }
 .title-box {
@@ -103,7 +109,7 @@ body {
 }
 h1 {
   color: white;
-  text-shadow: 5px 5px 5px black;
+  text-shadow: 5px 5px 8px #001930;
   font-family: 'Sacramento', cursive;
   font-size: 100pt;
 }
@@ -119,14 +125,23 @@ h1 {
 .port-mat-box {
   height: 400px;
   height: 100%;
-  background-image: linear-gradient(#fedfc0, #fcc4a3);
-  box-shadow: 0 5px 5px 0;
+  background-color: rgb(255, 255, 255, 0.6);
+  border-radius: 5px;
+  box-shadow: 5px 5px 8px #001930;
   padding-top: 50px;
 }
 .port-img {
   height: 200px;
-  background-color: white;
+  background-image: url("https://via.placeholder.com/300x200");
+  background-size: cover;
+  background-repeat: no-repeat;
   margin: 20px 20px 0 20px;
+}
+.port-date {
+  display: inline-block;
+}
+.port-title {
+  float: right;
 }
 .port-desc {
   margin: 20px;
