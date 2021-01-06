@@ -1,6 +1,7 @@
 /* Background Elements */
 body {
   background-color: #fef2f4;
+  font-family: Georgia, serif;
 }
 .h-stripe {
   height: 400px;
@@ -62,7 +63,7 @@ body {
   height: 100%;
   border: 10px solid white;
 }
-.socials {
+.socials-box {
   position: absolute;
   margin-top: 50px;
   margin-left: 10px;
@@ -70,9 +71,19 @@ body {
 .social-icon {
   width: 80px;
   height: 80px;
-  background-color:black;
   border: 5px solid white;
   border-radius: 50%;
+  background-color: white;
+  background-size: cover;
+}
+.github {
+  background-image: url("./images/GitHub-Mark.png");
+}
+.linkedin {
+  background-image: url("./images/LinkedIn-logo.png");
+}
+.twitter {
+  background-image: url("./images/twitter-logo.png");
 }
 .icon-me {
   width: 150px;
