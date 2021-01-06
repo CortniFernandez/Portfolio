@@ -1,88 +1,93 @@
 /* Background Elements */
 body {
-  background-color:rgb(247, 237, 233);
+  background-color: #fef2f4;
 }
 .h-stripe {
-  height: 300px;
+  height: 400px;
+  width: 100%;
   background-image: linear-gradient(#7c75a1, #5f8abd);
-  position: relative;
-  top: 150px;
+  position: absolute;
+  top: 270px;
   z-index: -10;
 }
 .banner-box {
   margin-left: 10%;
 }
 .v-banner {
-  width: 400px;
+  width: 300px;
   height: 100vh;
-  background-color:rgb(67, 67, 187);
+  background-image: linear-gradient(#003466, #326698);
   position: fixed;
   top: 0px;
   z-index: -10;
 }
 
 /* Nav */
-
+.navbar {
+  background-color: #003466;
+}
 
 /* Window */
 .window-box {
   margin-left: 10%;
 }
 .window {
-  margin-left: 50px;
-  height: 600px;
-  width: 600px;
+  margin-left: 100px;
+  height: 800px;
+  width: 800px;
   background-image: url("./images/toronto.jpg");
   background-size: cover;
   position: absolute;
   border-radius: 50%;
-  top: 150px;
+  top: 90px;
   z-index: -10;
 }
 
 /* About Me section */
 .about-box {
   margin-left: 10%;
+  position: relative;
+  top: -450px;
 }
 .about-me {
-  width: 250px;
-  height: 400px;
-  background-color:rgb(247, 237, 233);
+  width: 350px;
+  height: 500px;
+  background-color: #ffe7c9;
   box-shadow: 0 5px 5px 0;
   position: absolute;
   padding: 10px;
   margin-left: 50px;
 }
 .about-me-border {
-  height: 380px;
-  border: 5px solid white;
+  height: 100%;
+  border: 10px solid white;
 }
 .socials {
   position: absolute;
-  margin-top: 70px;
+  margin-top: 50px;
   margin-left: 10px;
 }
 .social-icon {
-  width: 70px;
-  height: 70px;
+  width: 80px;
+  height: 80px;
   background-color:black;
   border: 5px solid white;
   border-radius: 50%;
 }
 .icon-me {
-  width: 130px;
-  height: 130px;
+  width: 150px;
+  height: 150px;
   position: absolute;
-  margin-top: 300px;
-  margin-left: -40px;
+  margin-top: 340px;
+  margin-left: -60px;
   background-color:black;
   border: 5px solid white;
   border-radius: 50%;
 }
 .title-box {
   position: absolute;
-  margin-top: 330px;
-  margin-left: 310px;
+  margin-top: 360px;
+  margin-left: 420px;
 }
 h1 {
   color: white;
@@ -91,7 +96,7 @@ h1 {
 
 /* Portfolio section */
 .port-box {
-  margin-top: 380px;
+  margin-top: 600px;
   margin-bottom: 20px;
   max-width: 1440px;
   position: relative;
@@ -100,7 +105,7 @@ h1 {
 .port-mat-box {
   height: 400px;
   height: 100%;
-  background-color:rgb(247, 237, 233);
+  background-image: linear-gradient(#fedfc0, #fcc4a3);
   box-shadow: 0 5px 5px 0;
   padding-top: 50px;
 }
