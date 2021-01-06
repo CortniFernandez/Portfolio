@@ -92,12 +92,29 @@ h1 {
 /* Portfolio section */
 .port-box {
   margin-top: 380px;
+  margin-bottom: 20px;
   max-width: 1440px;
   position: relative;
   z-index: -9;
 }
 .port-mat-box {
   height: 400px;
+  height: 100%;
   background-color:rgb(247, 237, 233);
   box-shadow: 0 5px 5px 0;
+  padding-top: 50px;
+}
+.port-img {
+  height: 200px;
+  background-color: white;
+  margin: 20px 20px 0 20px;
+}
+.port-desc {
+  margin: 20px;
+}
+
+/* Footer */
+.footer-box {
+  text-align: center;
+  margin-bottom: 20px;
 }
