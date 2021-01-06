@@ -57,6 +57,37 @@ body {
   height: 380px;
   border: 5px solid white;
 }
+.socials {
+  position: absolute;
+  margin-top: 70px;
+  margin-left: 10px;
+}
+.social-icon {
+  width: 70px;
+  height: 70px;
+  background-color:black;
+  border: 5px solid white;
+  border-radius: 50%;
+}
+.icon-me {
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  margin-top: 300px;
+  margin-left: -40px;
+  background-color:black;
+  border: 5px solid white;
+  border-radius: 50%;
+}
+.title-box {
+  position: absolute;
+  margin-top: 330px;
+  margin-left: 310px;
+}
+h1 {
+  color: white;
+  text-shadow: 5px 5px 5px black;
+}
 
 /* Portfolio section */
 .port-box {
