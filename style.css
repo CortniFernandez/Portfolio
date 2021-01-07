@@ -56,6 +56,12 @@ body {
     font-size: 18pt;
   }
 }
+@media all and (max-width: 768px) {
+  .nav-item {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
 
 /* Window */
 .window-box {
@@ -78,6 +84,14 @@ body {
   }
   .window {
     margin-left: 0px;
+  }
+}
+@media all and (max-width: 768px) {
+  .window {
+    height: 600px;
+    width: 600px;
+    top: 20px;
+    margin-left: 20px;
   }
 }
 
@@ -151,7 +165,6 @@ h1 {
   font-size: 100pt;
   margin-bottom: 0;
   line-height: 0.5;
-
 }
 @media all and (max-width: 992px) {
   .about-box {
@@ -193,6 +206,35 @@ h1 {
     height: 160px;
     width: 160px;
     left: -55px;
+  }
+}
+@media all and (max-width: 768px) {
+  .about-box {
+    width: 600px;
+    top: 300px;
+  }
+  .about-me {
+    height: 550px;
+    width: 450px;
+  }
+  .about-me-border {
+    font-size: 16pt;
+  }
+  .title-box {
+    bottom: 535px;
+    left: 170px;
+  }
+  h1 {
+    font-size: 70pt;
+  }
+  .socials-box {
+    top: 40px;
+    left: 500px;
+  }
+  .social-icon {
+    display: block;
+    height: 90px;
+    width: 90px;
   }
 }
 
@@ -247,6 +289,23 @@ h1 {
     font-size: 14pt;
   }
 }
+@media all and (max-width: 768px) {
+  .port-box {
+    margin-top: 820px;
+  }
+  .port-img {
+    height: 450px;
+  }
+  .port-date {
+    font-size: 14pt;
+  }
+  .port-title {
+    font-size: 18pt;
+  }
+  .port-desc {
+    font-size: 18pt;
+  }
+}
 
 /* Footer */
 .footer-box {
@@ -260,5 +319,10 @@ h1 {
 @media all and (max-width: 992px) {
   .footer-box {
     font-size: 16pt;
+  }
+}
+@media all and (max-width: 768px) {
+  .footer-box {
+    font-size: 18pt;
   }
 }
