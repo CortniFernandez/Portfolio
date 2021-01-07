@@ -1,7 +1,15 @@
 /* Background Elements */
 body {
   font-family: Georgia, serif;
-  background-image: linear-gradient(to right top, #d6afc5, #d2a8c9, #caa3d0, #bd9fd7, #ac9cdf, #9fa0e5, #90a5ea, #7fa9ee, #7bb4ef, #7dbdee, #85c6ec, #90cee9);
+  background-image: linear-gradient(to right top, #d57cae, #ca85bf, #bd8fcd, #af98d7, #a0a1de, #97a8e2, #8fafe4, #89b5e4, #87bce5, #87c2e5, #89c8e4, #8dcde3);
+  min-height: 100vh;
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.bg-wrapper {
+  position: relative;
 }
 .h-stripe {
   height: 380px;
@@ -21,16 +29,23 @@ body {
   background-image: linear-gradient(#003466, #326698);
   position: fixed;
   top: 0px;
-  z-index: -10;
+  z-index: -11;
 }
 
 /* Nav */
 .navbar {
-  background-color: white;
-  opacity: 0.9;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding-left: 10%;
+}
+.navbar-nav {
+  padding-left: 30px;
 }
 .nav-link {
   color: #003466;
+}
+#about-me-nav {
+  border-right: 1px solid white;
+  border-left: 1px solid white;
 }
 
 /* Window */
@@ -38,22 +53,23 @@ body {
   margin-left: 10%;
 }
 .window {
-  margin-left: 100px;
   height: 800px;
   width: 800px;
   background-image: url("./images/toronto-island.jpg");
   background-size: cover;
   position: absolute;
+  top: 100px;
+  margin-left: 100px;
   border-radius: 50%;
-  top: 90px;
   z-index: -10;
 }
 
 /* About Me section */
 .about-box {
   margin-left: 10%;
-  position: relative;
-  top: -450px;
+  position: absolute;
+  top: 160px;
+  z-index: 1;
 }
 .about-me {
   width: 350px;
@@ -61,9 +77,9 @@ body {
   background-color: hsla(209, 50%, 40%, 0.8);
   border-radius: 10px;
   box-shadow: 5px 5px 8px #001930;
-  position: absolute;
+  position: relative;
   padding: 10px;
-  margin-left: 50px;
+  margin-left: 100px;
 }
 .about-me-border {
   height: 100%;
@@ -71,8 +87,8 @@ body {
 }
 .socials-box {
   position: absolute;
-  margin-top: 50px;
-  margin-left: 10px;
+  top: 60px;
+  left: 80px;
 }
 .social-icon {
   width: 80px;
@@ -95,8 +111,8 @@ body {
   width: 150px;
   height: 150px;
   position: absolute;
-  margin-top: 340px;
-  margin-left: -60px;
+  bottom: 20px;
+  left: 40px;
   background-image: url("./images/icon-me.png");
   background-size: cover;
   border: 3px solid white;
@@ -104,8 +120,8 @@ body {
 }
 .title-box {
   position: absolute;
-  margin-top: 360px;
-  margin-left: 340px;
+  bottom: -30px;
+  right: 200px;
 }
 h1 {
   color: white;
@@ -116,11 +132,13 @@ h1 {
 
 /* Portfolio section */
 .port-box {
-  margin-top: 600px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-top: 620px;
   margin-bottom: 20px;
   max-width: 1440px;
-  position: relative;
-  z-index: -9;
+  z-index: -1;
 }
 .port-mat-box {
   height: 400px;
@@ -149,6 +167,7 @@ h1 {
 
 /* Footer */
 .footer-box {
+  max-width: 100%;
   text-align: center;
   margin-bottom: 20px;
 }
