@@ -121,7 +121,7 @@ body {
 .title-box {
   position: absolute;
   bottom: -30px;
-  right: 200px;
+  left: 400px;
 }
 h1 {
   color: white;
@@ -157,9 +157,15 @@ h1 {
 }
 .port-date {
   display: inline-block;
+  font-size: 10pt;
 }
 .port-title {
   float: right;
+  color: #003466;
+}
+.port-title:hover {
+  color: white;
+  text-decoration: none;
 }
 .port-desc {
   margin: 20px;
@@ -170,4 +176,7 @@ h1 {
   max-width: 100%;
   text-align: center;
   margin-bottom: 20px;
+}
+.footer-box > a:hover {
+  text-decoration: none;
 }
