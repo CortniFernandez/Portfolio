@@ -1,4 +1,4 @@
-/* Background Elements */
+/* ----------------------------- Background Elements ----------------------------- */
 body {
   font-family: 'Work Sans', sans-serif;
   background-image: linear-gradient(to bottom, #406885, #4a6f93, #5876a1, #687cae, #7b81b9, #9484bb, #ab88ba, #be8db8, #cf95ae, #d7a1a8, #d9aea8, #d8bbae);
@@ -25,14 +25,14 @@ body {
 }
 .v-banner {
   width: 300px;
-  height: 100vh;
+  height: 100%;
   background-image: linear-gradient(#003466, #326698);
   position: fixed;
   top: 0px;
   z-index: -11;
 }
 
-/* Nav */
+/* ----------------------------- Nav ----------------------------- */
 .navbar {
   background-color: rgba(255, 255, 255, 0.7);
   padding-left: 10%;
@@ -61,9 +61,15 @@ body {
     padding-left: 25px;
     padding-right: 25px;
   }
+@media all and (max-width: 576px) {
+  .nav-item {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
 }
 
-/* Window */
+/* ----------------------------- Window ----------------------------*/
 .window-box {
   margin-left: 10%;
 }
@@ -94,8 +100,15 @@ body {
     margin-left: 20px;
   }
 }
+@media all and (max-width: 576px) {
+  .window {
+    height: 400px;
+    width: 400px;
+    margin-left: 10px;
+  }
+}
 
-/* About Me section */
+/* ----------------------------- About Me section ----------------------------- */
 .about-box {
   margin-left: 10%;
   position: absolute;
@@ -148,7 +161,7 @@ body {
   position: absolute;
   bottom: 20px;
   left: 40px;
-  background-image: url("./images/icon-me.png");
+  background-image: url("./images/icon-me.jpg");
   background-size: cover;
   border: 3px solid white;
   border-radius: 50%;
@@ -236,8 +249,27 @@ h1 {
     width: 90px;
   }
 }
+@media all and (max-width: 576px) {
+  .about-box {
+    max-width: 400px;
+  }
+  .about-me {
+    width: 350px;
+  }
+  .title-box {
+    left: 120px;
+  }
+  .socials-box {
+    left: -10px;
+  }
+  .icon-me {
+    height: 130px;
+    width: 130px;
+    left: -25px;
+  }
+}
 
-/* Portfolio section */
+/* ----------------------------- Portfolio section ----------------------------- */
 .port-box {
   position: absolute;
   left: 0;
@@ -305,8 +337,16 @@ h1 {
     font-size: 18pt;
   }
 }
+@media all and (max-width: 576px) {
+  .port-img {
+    height: 300px;
+  }
+  .port-box {
+    max-width: 600px;
+  }
+}
 
-/* Footer */
+/* ----------------------------- Footer ----------------------------- */
 .footer-box {
   max-width: 100%;
   text-align: center;
