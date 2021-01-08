@@ -1,7 +1,7 @@
 /* Background Elements */
 body {
-  font-family: Georgia, serif;
-  background-image: linear-gradient(to right top, #d57cae, #ca85bf, #bd8fcd, #af98d7, #a0a1de, #97a8e2, #8fafe4, #89b5e4, #87bce5, #87c2e5, #89c8e4, #8dcde3);
+  font-family: 'Work Sans', sans-serif;
+  background-image: linear-gradient(to bottom, #406885, #4a6f93, #5876a1, #687cae, #7b81b9, #9484bb, #ab88ba, #be8db8, #cf95ae, #d7a1a8, #d9aea8, #d8bbae);
   min-height: 100vh;
   height: 100%;
   margin: 0;
@@ -53,7 +53,7 @@ body {
 }
 @media all and (max-width: 992px) {
   .nav-link {
-    font-size: 18pt;
+    font-size: 16pt;
   }
 }
 @media all and (max-width: 768px) {
@@ -156,13 +156,13 @@ body {
 .title-box {
   position: absolute;
   bottom: 20px;
-  left: 400px;
+  left: 410px;
 }
 h1 {
   color: white;
-  text-shadow: 5px 5px 8px #001930;
-  font-family: 'Sacramento', cursive;
-  font-size: 100pt;
+  text-shadow: 5px 5px 5px #001930;
+  font-family: 'Stalemate', cursive;
+  font-size: 80pt;
   margin-bottom: 0;
   line-height: 0.5;
 }
@@ -177,7 +177,6 @@ h1 {
     width: 300px;
   }
   .about-me-border {
-    font-size: 14pt;
     margin-left: 20px;
     margin-right: 10px;
   }
@@ -195,7 +194,7 @@ h1 {
     height: 100px;
     width: fit-content;
     top: 460px;
-    left: 400px;
+    left: 380px;
   }
   .social-icon {
     display: inline-block;
@@ -222,7 +221,7 @@ h1 {
   }
   .title-box {
     bottom: 535px;
-    left: 170px;
+    left: 290px;
   }
   h1 {
     font-size: 70pt;
