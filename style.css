@@ -289,18 +289,28 @@ h1 {
 }
 .port-img {
   height: 200px;
-  background-image: url("https://via.placeholder.com/300x200");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  border: 10px solid white;
   margin: 20px 20px 0 20px;
+}
+#airbnb-clone {
+  background-image: url("./images/airbnb-clone-thumb.png");
+}
+#math-game {
+  background-image: url("./images/math-game-thumb.png")
 }
 #todays-tasks {
   background-image: url("./images/todays-tasks-thumb.png");
 }
+#currency-conversion {
+  background-image: url("./images/currency-conversion-thumb.png");
+}
 .port-date {
   display: inline-block;
   font-size: 10pt;
+  font-weight: bold;
 }
 .port-title {
   float: right;
