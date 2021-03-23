@@ -295,9 +295,6 @@ h1 {
   border: 10px solid white;
   margin: 20px 20px 0 20px;
 }
-#airbnb-clone {
-  background-image: url("./images/airbnb-clone-thumb.png");
-}
 #math-game {
   background-image: url("./images/math-game-thumb.png")
 }
@@ -306,6 +303,9 @@ h1 {
 }
 #currency-conversion {
   background-image: url("./images/currency-conversion-thumb.png");
+}
+#write-as-rain {
+  background-image: url("./images/write-thumb.png");
 }
 .port-date {
   display: inline-block;
