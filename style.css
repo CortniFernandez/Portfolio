@@ -28,6 +28,19 @@ a:hover {
   width: 100%;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgb(0,0,0,0));
 }
+.skills-box {
+  text-align: center;
+  padding-bottom: 2em;
+}
+.skills-box > p {
+  padding: 10px;
+  border-bottom: 2px solid;
+  border-image: linear-gradient(to right,rgb(0,0,0,0),#ad729a, rgb(255, 229, 142),#ad729a,rgb(0,0,0,0)) 1;
+}
+.skills-box > img {
+  width: 70px;
+  filter: opacity(70%);
+}
 #to-top {
   text-align: center;
   font-size: 24pt;
@@ -88,7 +101,7 @@ h5 {
 .mail {
   background-image: url("img/mail-logo.png");
 }
-.skills-p {
+.bio {
   margin-top: 40px;
   text-align: end;
   padding: 10px;
