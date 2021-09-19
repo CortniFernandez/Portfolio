@@ -39,7 +39,6 @@ a:hover {
 }
 .skills-box > img {
   width: 70px;
-  filter: opacity(70%);
 }
 #to-top {
   text-align: center;
